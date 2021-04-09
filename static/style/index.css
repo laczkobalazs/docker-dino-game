@@ -37,4 +37,21 @@
 }
 
 #cactus {
+  position: relative;
+  aspect-ratio: 0.75;
+  height: 20px;
+  background-image: url(../images/tree-solid.svg);
+  top: 130px;
+  left: 785px;
+  animation: block 1.5s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 785px;
+  }
+
+  100% {
+    left: 0px;
+  }
 }
